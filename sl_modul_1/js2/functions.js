@@ -26,15 +26,15 @@
 // const b = calcP(1, 2)
 // console.log(b);
 
- function calcBMI(weight, height){
-    weight = Number.parseFloat(weight);
-    height = Number.parseFloat(height);
+//  function calcBMI(weight, height){
+//     weight = Number.parseFloat(weight);
+//     height = Number.parseFloat(height);
 
-    const bmi = weight / (height ** 2);
-    return bmi.toFixed(1);
- }
+//     const bmi = weight / (height ** 2);
+//     return bmi.toFixed(1);
+//  }
 
-const bmi = calcBMI("88,3", "1.75");
-console.log(bmi);
+// const bmi = calcBMI("88,3", "1.75");
+// console.log(bmi);
 
 
