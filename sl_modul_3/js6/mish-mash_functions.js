@@ -123,28 +123,28 @@
 //* ЦІКАВА ЗАДАЧА 
 /** 
  * функція яка Розбиває масив на підмасиви заданого розміру.
- * @param {Array} arr - Початковий масив значень
- * @param {number} count - Кількість елементів у кожному підмасиві
- * @returns {Array} Масив, що містить підмасиви з заданою кількістю елементів
+//  * @param {Array} arr - Початковий масив значень
+//  * @param {number} count - Кількість елементів у кожному підмасиві
+//  * @returns {Array} Масив, що містить підмасиви з заданою кількістю елементів
  */
-function getCombinations(arr, count) {
-    const result = [];
-    for (let i = 0; i < arr.length; i += count) {
-      const comb = arr.slice(i, i + count);
-      result.push(comb);
-    }
-    return result;
-  }
+// function getCombinations(arr, count) {
+//     const result = [];
+//     for (let i = 0; i < arr.length; i += count) {
+//       const comb = arr.slice(i, i + count);
+//       result.push(comb);
+//     }
+//     return result;
+//   }
   
-  const data = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+//   const data = [1, 2, 3, 4, 5, 6, 7, 8, 9];
   
-  // Приклади використання:
-  console.log(getCombinations(data, 2));
-  // [[1, 2], [3, 4], [5, 6], [7, 8], [9]]
+//   // Приклади використання:
+//   console.log(getCombinations(data, 2));
+//   // [[1, 2], [3, 4], [5, 6], [7, 8], [9]]
   
-  console.log(getCombinations(data, 3));
-  // [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+//   console.log(getCombinations(data, 3));
+//   // [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
   
-  console.log(getCombinations(data, 4));
-  // [[1, 2, 3, 4], [5, 6, 7, 8], [9]]
+//   console.log(getCombinations(data, 4));
+//   // [[1, 2, 3, 4], [5, 6, 7, 8], [9]]
 
