@@ -38,7 +38,7 @@
 // user2.username = 'Viktor'
 // console.log(user1, user2);
 
-// * ЯК РОБИТИ ДУБЛІКАТ ОБЄКТА???
+// * ЯК РОБИТИ ДУБЛІКАТ ОБЄКТА??? запис в 04 JS IERATIONS**********
 
 
 // const user = {
