@@ -32,3 +32,14 @@
 
 // console.log(colorPickerData);
 // { colorValue: "blue", colorPicker: true }
+
+// * ДОДАТКОВО  COMPUTED PROERTY
+
+// const carName = 'BMW'
+// const carColor = 'green'
+// const cars = {
+// [carName + carColor]: 2000
+// }
+
+// console.log(cars);
+
